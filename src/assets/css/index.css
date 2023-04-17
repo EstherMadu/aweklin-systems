@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+.hero-text {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  /* max-width: 1200px !important; */
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.card-list {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 3fr;
+  gap: 2rem;
+}
+
+.book {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.book h4 {
+  color: #617d98;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.orange-pic {
+  width: 351px;
+}
+
+.solution {
+  margin-top: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-list {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+
+  .solution {
+    margin-top: 300px;
+  }
+}
