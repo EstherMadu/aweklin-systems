@@ -10,7 +10,7 @@ import image7 from "../assets/images/two-factor.png";
 export const Solutions = () => {
   return (
     <section className="container solution grid md:grid-cols-12 items-center gap-1">
-      <div className="relative lg:ml-44 md:col-span-7">
+      <div className="relative md:col-span-7">
         <img src={image1} alt="Image 1" className="w-96" />
 
         <img
