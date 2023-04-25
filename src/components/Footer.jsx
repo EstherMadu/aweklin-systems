@@ -1,16 +1,16 @@
 import React from "react";
-import codeImg from "../assets/images/code.jpg";
+import codeImg from "../assets/images/analytics.jpg";
 
 export const Footer = () => {
   return (
     <footer className="text-white py-16">
       <div
-        className="bg-fixed bg-center bg-cover h-96"
+        className="bg-fixed bg-center bg-cover h-96 w-full"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${codeImg})`,
         }}
       >
-        <div className="container mx-auto px-4 h-full flex items-center gap-8 ">
+        <div className="container mx-auto  h-full flex items-center gap-8 ">
           <h2 className="text-6xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text w-72">
             Aweklin Systems
           </h2>

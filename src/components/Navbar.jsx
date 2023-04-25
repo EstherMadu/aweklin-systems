@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div className="flex items-center flex-shrink-0  mr-6 mt-10 lg:mr-96">
         <img src={logo} className="w-28" alt="Logo" />
       </div>
-      <div className="block mt-10 lg:hidden">
+      <div className="block  mt-10 ml- lg:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="flex items-center px-3 py-2 rounded text-white hover:text-black-400"
