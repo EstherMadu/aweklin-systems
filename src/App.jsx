@@ -14,7 +14,9 @@ export default function App() {
     <div>
       <Header />
       <Services />
-      <section className="card-list">{Cards}</section>
+      <section className="card-list flex justify-center items-center">
+        {Cards}
+      </section>
       <Solutions />
       <Footer />
     </div>
